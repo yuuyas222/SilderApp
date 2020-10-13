@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B1C9FE52535A278002CA6BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C9FE42535A278002CA6BB /* AppDelegate.swift */; };
+		9B1C9FE72535A278002CA6BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C9FE62535A278002CA6BB /* SceneDelegate.swift */; };
+		9B1C9FE92535A278002CA6BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C9FE82535A278002CA6BB /* ContentView.swift */; };
+		9B1C9FEB2535A27E002CA6BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1C9FEA2535A27E002CA6BB /* Assets.xcassets */; };
+		9B1C9FEE2535A27E002CA6BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1C9FED2535A27E002CA6BB /* Preview Assets.xcassets */; };
+		9B1C9FF12535A27F002CA6BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1C9FEF2535A27F002CA6BB /* LaunchScreen.storyboard */; };
+		9B1C9FFC2535A27F002CA6BB /* SilderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C9FFB2535A27F002CA6BB /* SilderAppTests.swift */; };
+		9B1CA0072535A27F002CA6BB /* SilderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CA0062535A27F002CA6BB /* SilderAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B1C9FF82535A27F002CA6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B1C9FD92535A278002CA6BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B1C9FE02535A278002CA6BB;
+			remoteInfo = SilderApp;
+		};
+		9B1CA0032535A27F002CA6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B1C9FD92535A278002CA6BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B1C9FE02535A278002CA6BB;
+			remoteInfo = SilderApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B1C9FE12535A278002CA6BB /* SilderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1C9FE42535A278002CA6BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B1C9FE62535A278002CA6BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9B1C9FE82535A278002CA6BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B1C9FEA2535A27E002CA6BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B1C9FED2535A27E002CA6BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B1C9FF02535A27F002CA6BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B1C9FF22535A27F002CA6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B1C9FF72535A27F002CA6BB /* SilderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1C9FFB2535A27F002CA6BB /* SilderAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilderAppTests.swift; sourceTree = "<group>"; };
+		9B1C9FFD2535A27F002CA6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B1CA0022535A27F002CA6BB /* SilderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1CA0062535A27F002CA6BB /* SilderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilderAppUITests.swift; sourceTree = "<group>"; };
+		9B1CA0082535A27F002CA6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B1C9FDE2535A278002CA6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1C9FF42535A27F002CA6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1C9FFF2535A27F002CA6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B1C9FD82535A278002CA6BB = {
+			isa = PBXGroup;
+			children = (
+				9B1C9FE32535A278002CA6BB /* SilderApp */,
+				9B1C9FFA2535A27F002CA6BB /* SilderAppTests */,
+				9B1CA0052535A27F002CA6BB /* SilderAppUITests */,
+				9B1C9FE22535A278002CA6BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B1C9FE22535A278002CA6BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B1C9FE12535A278002CA6BB /* SilderApp.app */,
+				9B1C9FF72535A27F002CA6BB /* SilderAppTests.xctest */,
+				9B1CA0022535A27F002CA6BB /* SilderAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B1C9FE32535A278002CA6BB /* SilderApp */ = {
+			isa = PBXGroup;
+			children = (
+				9B1C9FE42535A278002CA6BB /* AppDelegate.swift */,
+				9B1C9FE62535A278002CA6BB /* SceneDelegate.swift */,
+				9B1C9FE82535A278002CA6BB /* ContentView.swift */,
+				9B1C9FEA2535A27E002CA6BB /* Assets.xcassets */,
+				9B1C9FEF2535A27F002CA6BB /* LaunchScreen.storyboard */,
+				9B1C9FF22535A27F002CA6BB /* Info.plist */,
+				9B1C9FEC2535A27E002CA6BB /* Preview Content */,
+			);
+			path = SilderApp;
+			sourceTree = "<group>";
+		};
+		9B1C9FEC2535A27E002CA6BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B1C9FED2535A27E002CA6BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B1C9FFA2535A27F002CA6BB /* SilderAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B1C9FFB2535A27F002CA6BB /* SilderAppTests.swift */,
+				9B1C9FFD2535A27F002CA6BB /* Info.plist */,
+			);
+			path = SilderAppTests;
+			sourceTree = "<group>";
+		};
+		9B1CA0052535A27F002CA6BB /* SilderAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B1CA0062535A27F002CA6BB /* SilderAppUITests.swift */,
+				9B1CA0082535A27F002CA6BB /* Info.plist */,
+			);
+			path = SilderAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B1C9FE02535A278002CA6BB /* SilderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B1CA00B2535A27F002CA6BB /* Build configuration list for PBXNativeTarget "SilderApp" */;
+			buildPhases = (
+				9B1C9FDD2535A278002CA6BB /* Sources */,
+				9B1C9FDE2535A278002CA6BB /* Frameworks */,
+				9B1C9FDF2535A278002CA6BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SilderApp;
+			productName = SilderApp;
+			productReference = 9B1C9FE12535A278002CA6BB /* SilderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B1C9FF62535A27F002CA6BB /* SilderAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B1CA00E2535A27F002CA6BB /* Build configuration list for PBXNativeTarget "SilderAppTests" */;
+			buildPhases = (
+				9B1C9FF32535A27F002CA6BB /* Sources */,
+				9B1C9FF42535A27F002CA6BB /* Frameworks */,
+				9B1C9FF52535A27F002CA6BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B1C9FF92535A27F002CA6BB /* PBXTargetDependency */,
+			);
+			name = SilderAppTests;
+			productName = SilderAppTests;
+			productReference = 9B1C9FF72535A27F002CA6BB /* SilderAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B1CA0012535A27F002CA6BB /* SilderAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B1CA0112535A27F002CA6BB /* Build configuration list for PBXNativeTarget "SilderAppUITests" */;
+			buildPhases = (
+				9B1C9FFE2535A27F002CA6BB /* Sources */,
+				9B1C9FFF2535A27F002CA6BB /* Frameworks */,
+				9B1CA0002535A27F002CA6BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B1CA0042535A27F002CA6BB /* PBXTargetDependency */,
+			);
+			name = SilderAppUITests;
+			productName = SilderAppUITests;
+			productReference = 9B1CA0022535A27F002CA6BB /* SilderAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B1C9FD92535A278002CA6BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "佐藤　祐弥";
+				TargetAttributes = {
+					9B1C9FE02535A278002CA6BB = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					9B1C9FF62535A27F002CA6BB = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 9B1C9FE02535A278002CA6BB;
+					};
+					9B1CA0012535A27F002CA6BB = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 9B1C9FE02535A278002CA6BB;
+					};
+				};
+			};
+			buildConfigurationList = 9B1C9FDC2535A278002CA6BB /* Build configuration list for PBXProject "SilderApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B1C9FD82535A278002CA6BB;
+			productRefGroup = 9B1C9FE22535A278002CA6BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B1C9FE02535A278002CA6BB /* SilderApp */,
+				9B1C9FF62535A27F002CA6BB /* SilderAppTests */,
+				9B1CA0012535A27F002CA6BB /* SilderAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B1C9FDF2535A278002CA6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1C9FF12535A27F002CA6BB /* LaunchScreen.storyboard in Resources */,
+				9B1C9FEE2535A27E002CA6BB /* Preview Assets.xcassets in Resources */,
+				9B1C9FEB2535A27E002CA6BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1C9FF52535A27F002CA6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1CA0002535A27F002CA6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B1C9FDD2535A278002CA6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1C9FE52535A278002CA6BB /* AppDelegate.swift in Sources */,
+				9B1C9FE72535A278002CA6BB /* SceneDelegate.swift in Sources */,
+				9B1C9FE92535A278002CA6BB /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1C9FF32535A27F002CA6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1C9FFC2535A27F002CA6BB /* SilderAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1C9FFE2535A27F002CA6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1CA0072535A27F002CA6BB /* SilderAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B1C9FF92535A27F002CA6BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B1C9FE02535A278002CA6BB /* SilderApp */;
+			targetProxy = 9B1C9FF82535A27F002CA6BB /* PBXContainerItemProxy */;
+		};
+		9B1CA0042535A27F002CA6BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B1C9FE02535A278002CA6BB /* SilderApp */;
+			targetProxy = 9B1CA0032535A27F002CA6BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B1C9FEF2535A27F002CA6BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B1C9FF02535A27F002CA6BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B1CA0092535A27F002CA6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B1CA00A2535A27F002CA6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B1CA00C2535A27F002CA6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SilderApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SilderApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-yuuyas222.SilderApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B1CA00D2535A27F002CA6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SilderApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SilderApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-yuuyas222.SilderApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B1CA00F2535A27F002CA6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SilderAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-yuuyas222.SilderAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SilderApp.app/SilderApp";
+			};
+			name = Debug;
+		};
+		9B1CA0102535A27F002CA6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SilderAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-yuuyas222.SilderAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SilderApp.app/SilderApp";
+			};
+			name = Release;
+		};
+		9B1CA0122535A27F002CA6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SilderAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-yuuyas222.SilderAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SilderApp;
+			};
+			name = Debug;
+		};
+		9B1CA0132535A27F002CA6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SilderAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-yuuyas222.SilderAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SilderApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B1C9FDC2535A278002CA6BB /* Build configuration list for PBXProject "SilderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1CA0092535A27F002CA6BB /* Debug */,
+				9B1CA00A2535A27F002CA6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B1CA00B2535A27F002CA6BB /* Build configuration list for PBXNativeTarget "SilderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1CA00C2535A27F002CA6BB /* Debug */,
+				9B1CA00D2535A27F002CA6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B1CA00E2535A27F002CA6BB /* Build configuration list for PBXNativeTarget "SilderAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1CA00F2535A27F002CA6BB /* Debug */,
+				9B1CA0102535A27F002CA6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B1CA0112535A27F002CA6BB /* Build configuration list for PBXNativeTarget "SilderAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1CA0122535A27F002CA6BB /* Debug */,
+				9B1CA0132535A27F002CA6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B1C9FD92535A278002CA6BB /* Project object */;
+}
